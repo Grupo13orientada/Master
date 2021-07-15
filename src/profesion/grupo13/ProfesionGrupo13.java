@@ -15,7 +15,15 @@ public class ProfesionGrupo13 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Doctor d= new Doctor();
+        Deportista p= new Deportista();
+        
+        System.out.println("Individuo 1");
+        d.imprimirinformacion();
+       
+        
+        System.out.println("Individuo 2");
+        p.imprimirinformacion(); 
     }
     
 }
